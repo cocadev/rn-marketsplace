@@ -14,7 +14,6 @@ export default class Header extends React.Component {
                 <Text style={[xx.green, { color: colors.GREY }]}>{this.props.title}</Text>
                 <View style={{ backgroundColor: colors.GREY, width: '89%', height: 1, marginHorizontal: width / 20 }}></View>
 
-
             </View>
 
         )
