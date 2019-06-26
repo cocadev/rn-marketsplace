@@ -203,28 +203,7 @@ module.exports = {
     this.baseApi(`/api/Region/GetRegions`, "GET", {}, '');
   },
 
-  /////////////////////////
-  //////// Account ////////
-  /////////////////////////
-  login(username, password, cb) {
 
-    this.baseApi("login", "POST", { username, password }, cb);
-  },
-
-  signup( password_confirmation, password, phone, last_name, first_name, email ,signup_type, title, cb){
-    this.baseApi('register', 'POST', { password_confirmation, password, phone, last_name, first_name, email ,signup_type, title }, cb)
-  },
-
-  /////////////////////////
-  ///////// Location //////
-  /////////////////////////
-  searchLocation(Text, cb){ 
-    this.baseApi('Location/SearchLocation?Text=' + Text, 'GET', {}, cb) 
-  },
-
-
-
-  
 
   
 
