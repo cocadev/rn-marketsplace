@@ -1,4 +1,4 @@
-# react-native-marketplace-app
+# rn-marketsplace
 
 
 <img src="https://raw.githubusercontent.com/funnyjerry/react-native-marketplace-app/master/images/1.PNG" alt="Demo1" width="340" />
